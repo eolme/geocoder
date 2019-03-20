@@ -1,10 +1,11 @@
 {
-  "name": "geocoder",
+  "name": "@eolme/geocoder",
   "version": "1.0.0",
   "description": "NodeJS module for geocoding of address list",
   "main": "index.js",
   "directories": {
     "example": "examples",
+    "lib": "lib",
     "test": "test"
   },
   "dependencies": {
@@ -16,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://github.com/eolme/geocoder.git"
+    "url": "git+ssh://git@github.com/eolme/geocoder.git"
   },
   "keywords": [
     "geocoding",
@@ -29,5 +30,12 @@
   "devDependencies": {
     "mocha": "^1.21.5",
     "should": "^4.6.5"
+  },
+  "bugs": {
+    "url": "https://github.com/eolme/geocoder/issues"
+  },
+  "homepage": "https://github.com/eolme/geocoder#readme",
+  "scripts": {
+    "test": "mocha"
   }
 }
