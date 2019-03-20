@@ -1,6 +1,6 @@
 {
-  "name": "multi-geocoder",
-  "version": "0.1.6",
+  "name": "geocoder",
+  "version": "1.0.0",
   "description": "NodeJS module for geocoding of address list",
   "main": "index.js",
   "directories": {
@@ -8,17 +8,15 @@
     "test": "test"
   },
   "dependencies": {
-    "superagent": "^2.0.0",
-    "lodash": "^3.10.0",
+    "@eolme/fetchit": "^3.1.0",
+    "lodash-es": "^4.17.11",
     "lru-cache": "~2.6.5",
-    "inherit": "^2.2.2",
-    "jspath": "^0.3.1",
-    "vow": "^0.4.10",
-    "vow-queue": "^0.4.2"
+    "inherit": "^2.2.7",
+    "jspath": "^0.4.0"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://github.com/dimik/node-multi-geocoder.git"
+    "url": "ssh://github.com/eolme/geocoder.git"
   },
   "keywords": [
     "geocoding",
@@ -26,10 +24,10 @@
     "yandex",
     "google"
   ],
-  "author": "Dmitry Poklonskiy",
+  "author": "Anton Petrov",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^1.21.4",
-    "should": "^4.0.4"
+    "mocha": "^1.21.5",
+    "should": "^4.6.5"
   }
 }
